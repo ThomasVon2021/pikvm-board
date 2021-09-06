@@ -23,4 +23,4 @@ This device helps to manage servers or workstations remotely, regardless of the 
 
 ## Contact
 If you are interested in this hardware, please email me anytime.  
-e-mail address:linshuzi123@gmail.com
+email address:linshuzi123@gmail.com
