@@ -1,6 +1,6 @@
 # pikvm-CM4-Board
 ![](/images/physical_img/blikvm8.jpg)
-Design hardware based on CM4 for pikvm.
+Design hardware based on CM4 for pikvm:https://github.com/pikvm/pikvm.
 This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed. 
 ## Hardware details
 ![](/images/pcb_img/PCB-A-seq.png)
