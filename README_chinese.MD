@@ -19,3 +19,6 @@
 (13) **5V**散热风扇接口  
 (14) **CSI-2**通道选择开关（打开为**4**通道采集，关闭为**2**通道采集）  
 (15) **CM4**计算模组安装座  
+
+## 更多链接
+购买：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
