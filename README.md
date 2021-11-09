@@ -26,8 +26,10 @@ If you are interested in this hardware, please email me anytime.
 email address:linshuzi123@gmail.com
 
 ## Test video
-![](/images/test_img/figure1.png)
 https://www.youtube.com/watch?v=d7I9l5yG5M8
+
+![](/images/test_img/figure1.png)
+
 
 ## More link
 Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
