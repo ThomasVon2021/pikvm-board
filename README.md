@@ -26,6 +26,7 @@ If you are interested in this hardware, please email me anytime.
 email address:linshuzi123@gmail.com
 
 ## Test video
+![](/images/test_img/figure1.png)
 https://www.youtube.com/watch?v=d7I9l5yG5M8
 
 ## More link
