@@ -21,9 +21,11 @@ This device helps to manage servers or workstations remotely, regardless of the 
 * **CSI-2 channel selection switch**. 
 * **CM4 Module** Connectors. 
 
-## 3D Render picture & video
+## 3D MODLE
 ![](/images/pcb_img/kvm-1.jpg)
+![](/images/pcb_img/kvm-2.jpg)
 
+In this path: **video/blikvm3D.mp4** , there are 3D models of video.
 ## Contact
 If you are interested in this hardware, please email me anytime.  
 email address:linshuzi123@gmail.com
