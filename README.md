@@ -27,7 +27,8 @@ This device helps to manage servers or workstations remotely, regardless of the 
 
 In this path: **video/blikvm3D.mp4** , there are 3D models of video.
 ## Contact
-If you are interested in this hardware, please email me anytime.  
+If you are interested in this hardware, please email me anytime.
+
 email address:linshuzi123@gmail.com
 
 skype group: https://join.skype.com/3ORIRT2OIZ0S
