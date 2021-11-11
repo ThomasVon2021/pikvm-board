@@ -31,7 +31,7 @@ If you are interested in this hardware, please email me anytime.
 
 email address:linshuzi123@gmail.com
 
-skype group: join.skype.com/3ORIRT2OIZ0S
+skype group: https://join.skype.com/3ORIRT2OIZ0S
 
 ## Test video
 https://www.youtube.com/watch?v=d7I9l5yG5M8
