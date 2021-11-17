@@ -22,10 +22,16 @@ This device helps to manage servers or workstations remotely, regardless of the 
 * **CM4 Module** Connectors. 
 
 ## 3D MODLE
+
+![](/images/3D_img/kvm2_img01.jpg)
+![](/images/3D_img/kvm2_img02.jpg)
+![](/images/3D_img/Translucent_img01.jpg)
+![](/images/3D_img/Translucent_img02.jpg)
 ![](/images/pcb_img/kvm-1.jpg)
 ![](/images/pcb_img/kvm-2.jpg)
 
-In this path: **video/blikvm3D.mp4** , there are 3D models of video.
+In this path: **video/, there are some 3D models of videos.  
+
 ## Contact
 If you are interested in this hardware, please email me anytime.
 
