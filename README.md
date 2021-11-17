@@ -30,7 +30,7 @@ This device helps to manage servers or workstations remotely, regardless of the 
 ![](/images/pcb_img/kvm-1.jpg)
 ![](/images/pcb_img/kvm-2.jpg)
 
-In this path: **video/, there are some 3D models of videos.  
+In this path: **video/**, there are some 3D models of videos.  
 
 ## Contact
 If you are interested in this hardware, please email me anytime.
