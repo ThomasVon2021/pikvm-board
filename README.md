@@ -10,28 +10,28 @@ This device helps to manage servers or workstations remotely, regardless of the 
 
 ## 1.Introduction
 
-![image-20211211202514000](https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211202514000.png)
+![image-20211211202514000](/images/docs_image/1-1.png)
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211202536099.png" alt="image-20211211202536099" style="zoom:90%;" />
+<img src="/images/docs_image/1-2.png" alt="1-2" style="zoom:90%;" />
 
 BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product’s key features include video capture, ATX adapter, USB 3.0, OTG, Gigabit Ethernet, OLED and RTC. The product has a customized metal shell to dissipate heat and provide protection for the circuit board. This is a feature demonstration [video](https://www.youtube.com/watch?v=d7I9l5yG5M8).
 
 ## 2.Features
-![image-20211211201200259](https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211201200259.png)
+![image-20211211201200259](/images/docs_image/2-1.png)
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211201407871.png" alt="image-20211211201407871" style="zoom:90%;" />
+<img src="/images/docs_image/2-2.png" alt="2-2.png" style="zoom:90%;" />
 
 ### 2.1. **HDMI IN** port with I2S
 
-The product integrates video capture function, and the bridge chip is TC358743. The product supports HDMI video and audio capture. Currently, PiKVM software only supports video capture, not audio capture. For the audio coding method, please refer to the documentation of [C780](https://github.com/ThomasVon2021/Raspberry-HDMI-CSI-I2S?spm=a2g0o.detail.1000023.1.5ae954a4xsTJlQ).
+The product integrates video capture function, and the bridge chip is TC358743. The product supports HDMI video and audio capture. Currently, PiKVM software only supports video capture, not audio capture. For the audio coding method, please refer to the documentation of [C780](/images/docs_image/2-3.png).
 
 ### 2.2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211220939511.png" alt="image-20211211220939511" style="zoom:50%;" />
+<img src="/images/docs_image/2-3.png" alt="2-3.png" style="zoom:50%;" />
 
 The user can use the ATX cable provided with the product to connect the product and the motherboard ATX switch of the controlled computer. The length of the ATX cable is 60CM, you can also use the double female Dupont cables.
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211221726146.png" alt="image-20211211221726146" style="zoom:50%;" />
+<img src="/images/docs_image/2-4.png" alt="2-4.png" style="zoom:50%;" />
 
 ### 2.3. **USB3.0 port**  x 2
 
@@ -45,7 +45,7 @@ This port is doing the emulation of a **USB** **keyboard**, **mouse**, **Virtual
 
 The RTC clock chip is DS1307. The chip is connected to the I^2^C interface of CM4, and the wiring definition is shown in the following table. Users need to buy 1220 button batteries locally.
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211222520552.png" alt="image-20211211222520552" style="zoom:80%;" />
+<img src="/images/docs_image/2-5.png" alt="2-5.png" style="zoom:80%;" />
 
 | DS1307 | CM4               |
 | ------ | ----------------- |
@@ -72,7 +72,7 @@ This LED duplicates the function of the RED LED on the Raspberry Pi 4, Model B.
 
 The product comes standard with a monochrome OLED display with a resolution of 128x64, and the chip is SSD1306.  The user connects the display to the product with the wiring of the display.
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211211230922894.png" alt="image-20211211230922894" style="zoom:80%;" />
+<img src="/images/docs_image/2-6.png" alt="2-6.png" style="zoom:80%;" />
 
 The module is connected to CM4 through the I^2^C interface. The wiring definition is shown in the following table. This is a library for the monochrome OLEDs based on [SSD1306 drivers.](https://github.com/adafruit/Adafruit_SSD1306)
 
@@ -102,7 +102,7 @@ It is recommended to use 5V 0.15A 3010 DC brushless fan.
 
 Newer keeps the factory state, ignore this switch. Only flip the switch when the device is powered off, otherwise it may cause permanent damage! The four small switches should be up or down at the same time. 
 
-![image-20211212000203991](https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211212000203991.png)
+![image-20211212000203991](/images/docs_image/2-7.png)
 
 The video encoding function of the Raspberry Pi is implemented by the HDMI-to-CSI bridge chip Toshiba TC358743, which supports up to 4 CSI-2 date lanes. The camera interface of Raspberry Pi 4B only supports 2 CSI-2 date lanes(up to 1080p50fps), Raspberry Pi CM4 can support 4 CSI-2 date lanes(up to 1080p60fps). Currently, PiKVM only uses two CSI-2 channels.
 
@@ -112,15 +112,15 @@ Used to install CM4
 
 ## 3.Mechanical Diagram
 
-![image-20211212010344693](https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211212010344693.png)
+![image-20211212010344693](/images/docs_image/2-8.png)
 
 ## 4.Metal Shell
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211212001627232.png" alt="image-20211212001627232" style="zoom:80%;" />
+<img src="/images/docs_image/2-9.png" alt="2-9.png" style="zoom:80%;" />
 
 The metal shell provides protection for the circuit board, and the equipped 5V DC brushless fan can enhance heat dissipation. SMA antenna hole is reserved on the shell, CM4 can use an external antenna.
 
-<img src="https://cos-1257958677.cos.ap-beijing.myqcloud.com/image-20211212003212509.png" alt="image-20211212003212509" style="zoom:80%;" />
+<img src="/images/docs_image/2-10.png" alt="2-9.png" style="zoom:80%;" />
 
 ## 5.3D MODLE
 
