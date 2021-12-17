@@ -51,7 +51,31 @@ The RTC clock chip is DS1307. The chip is connected to the I^2^C interface of CM
 | ------ | ----------------- |
 | SCL    | GPIO3(SCL1,I^2^C) |
 | SDA    | GPIO2(SDA1,I^2^C) |
+Follow the method below to enable RTC(Use the latest [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz),IIC is enabled by default).
 
+1. Open the startup configuration file of the Raspberry Pi
+```
+# sudo nano /boot/config.txt //Raspberry Pi's startup configuration file
+```
+2. Find the corresponding code, modify it as follows, and configure it as DS1307 chip
+
+```
+dtoverlay=i2c-rtc,ds1307
+```
+
+3. Reboot the system
+
+```
+# sudo reboot
+```
+
+4. Synchronize time from Raspberry Pi to DS1307
+
+```
+# date  //Display the current time of the Raspberry Pi
+# sudo hwclock -w //Write the time of Raspberry Pi to DS1307
+# sudo hwclock -r //Read the time of DS1307
+```
 ### 2.6.**Gigabit Ethernet**
 
 A standard 1:1 RJ45 MagJack with added ESD protection.
@@ -82,6 +106,15 @@ The module is connected to CM4 through the I^2^C interface. The wiring definitio
 | VCC              | 3.3V              |
 | SCL              | GPIO3(SCL1,I^2^C) |
 | SDA              | GPIO2(SDA1,I^2^C) |
+Follow the method below to enable RTC(Use the latest [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz),IIC is enabled by default).
+
+Log in to PiKVM and run these commands:
+
+```
+# rw
+# systemctl enable --now kvmd-oled //Enable OLED
+# ro
+```
 
 ### 2.11. **nRPI_BOOT** Jumper
 
