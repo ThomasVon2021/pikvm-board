@@ -51,6 +51,7 @@ The RTC clock chip is DS1307. The chip is connected to the I^2^C interface of CM
 | ------ | ----------------- |
 | SCL    | GPIO3(SCL1,I^2^C) |
 | SDA    | GPIO2(SDA1,I^2^C) |
+
 Follow the method below to enable RTC(Use the latest [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz),IIC is enabled by default).
 
 1. Open the startup configuration file of the Raspberry Pi
