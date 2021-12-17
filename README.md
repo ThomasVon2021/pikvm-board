@@ -14,7 +14,7 @@ This device helps to manage servers or workstations remotely, regardless of the 
 
 <img src="/images/docs_image/1-2.png" alt="1-2" style="zoom:90%;" />
 
-BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product’s key features include video capture, ATX adapter, USB 3.0, OTG, Gigabit Ethernet, OLED and RTC. The product has a customized metal shell to dissipate heat and provide protection for the circuit board. This is a feature demonstration [video](https://www.youtube.com/watch?v=d7I9l5yG5M8).
+BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product’s key features include video capture, ATX adapter, USB 3.0, OTG, Gigabit Ethernet, OLED and RTC. The product has a customized metal shell to dissipate heat and provide protection for the circuit board. This is a feature demonstration [video](https://www.youtube.com/watch?v=d7I9l5yG5M8).The product is currently perfectly compatible with  [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz).
 
 ## 2.Features
 ![image-20211211201200259](/images/docs_image/2-1.png)
