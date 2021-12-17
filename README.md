@@ -107,6 +107,7 @@ The module is connected to CM4 through the I^2^C interface. The wiring definitio
 | VCC              | 3.3V              |
 | SCL              | GPIO3(SCL1,I^2^C) |
 | SDA              | GPIO2(SDA1,I^2^C) |
+
 Follow the method below to enable RTC(Use the latest [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz),IIC is enabled by default).
 
 Log in to PiKVM and run these commands:
