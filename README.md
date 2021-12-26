@@ -176,6 +176,7 @@ email address:linshuzi123@gmail.com
 skype group: https://join.skype.com/3ORIRT2OIZ0S
 
 ## 7.Test video
+https://www.youtube.com/watch?v=aehOawHklGE
 https://www.youtube.com/watch?v=d7I9l5yG5M8
 
 ![](/images/test_img/figure1.png)
