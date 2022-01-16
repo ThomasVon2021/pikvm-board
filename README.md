@@ -123,7 +123,9 @@ Log in to PiKVM and run these commands:
 - G: GND
 - BOOT: nRPI_BOOT
 
-During boot if the nRPI_BOOT pin is low booting from eMMC will be stopped and booting will be transferred to rpi boot which is via USB.
+During boot if the nRPI_BOOT pin is low booting from eMMC will be stopped and booting will be transferred to rpi boot which is via USB.  
+Flashing the OS image，you can refer to this link <a href="https://github.com/ThomasVon2021/pikvm-CM4-Board/wiki#flashing-the-os-image" target="_blank">flashing os image</a>
+
 
 ### 2.12.**USB-C power input** 
 
