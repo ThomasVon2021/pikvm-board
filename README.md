@@ -129,7 +129,7 @@ Flashing the OS image，you can refer to this link <a href="https://github.com/T
 
 ### 2.12.**USB-C power input** 
 
-The CM4 requires a good quality USB-C power supply capable of delivering 5V at 3A. If attached downstream USB devices consume less than 500mA, a 5V, 2.5A supply may be used.
+The CM4 requires a good quality USB-C power supply capable of delivering 5V at 3A.**Must use USB-C to USB-A cable**. If attached downstream USB devices consume less than 500mA, a 5V, 2.5A supply may be used.
 
 ### 2.13. **FAN** connector 5V
 
