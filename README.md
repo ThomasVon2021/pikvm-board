@@ -40,6 +40,7 @@ The USB3.0 interface is provided by a USB 3 host controller (using the Via Labs 
 ### 2.4. **USB-C OTG**
 
 This port is doing the emulation of a **USB** **keyboard**, **mouse**, **Virtual CD-ROM** or **USB Flash Drive**, **USB-Ethernet**, **USB-Serial** port and a lot of other Linux-supported features. This interface cannot provide external power.
+Control a PC's USB interface, you should plug a USB-C to USB-A cable from the USB-C 'OTG' port on the BliKVM into a USB-A port on the PC you're controlling.
 
 ### 2.5.**Real Time Clock (RTC)**
 
