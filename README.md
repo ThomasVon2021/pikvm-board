@@ -14,7 +14,7 @@ Join to the <a href="https://discord.gg/9Y374gUF6C" target="_blank">Discord Comm
 BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product’s key features include video capture, ATX adapter, USB 3.0, OTG, Gigabit Ethernet, OLED and RTC. The product has a customized metal shell to dissipate heat and provide protection for the circuit board. This is a feature demonstration [video](https://www.youtube.com/watch?v=d7I9l5yG5M8).The product is currently perfectly compatible with  [**v3-hdmi-rpi4-latest.img**](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz).
 | **[>>> PCB front <<<](#diy-getting-started)** | **[>>> PCB front <<<](#pikvm-v3-hat)** |
 | --------------------------------------------- | ------------------------------------------ |
-| [Test video by **Jeff Geerling**](https://www.youtube.com/channel/UCsd6hP-zzIkCpw8XGw7Osyw) | [BLIKVM Unboxing video](https://www.youtube.com/watch?v=aehOawHklGE&t=37s) |
+| [Test video by **Jeff Geerling**](https://www.youtube.com/watch?v=3OPd7svT3bE&t=856s) | [BLIKVM Unboxing video](https://www.youtube.com/watch?v=aehOawHklGE&t=37s) |
 | <img src="/images/docs_image/1-1.png" alt="drawing"/> | <img src="/images/docs_image/1-2.png" alt="drawing"/> |
 
 ## 2.Features
