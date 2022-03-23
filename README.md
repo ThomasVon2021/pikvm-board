@@ -7,6 +7,7 @@
 Design hardware based on CM4 for pikvm:https://github.com/pikvm/pikvm.
 This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed. Join our <a href="https://discord.gg/9Y374gUF6C" target="_blank">BLIKVM Discord Community</a> for Support, FAQ & News!
 Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
+
 ![](/images/physical_img/blikvm8.jpg)
 
 ## 1.Introduction
@@ -21,7 +22,7 @@ BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product
 | **[>>> PCB front <<<](#diy-getting-started)** | **[>>> PCB front <<<](#pikvm-v3-hat)** |
 | --------------------------------------------- | ------------------------------------------ |
 | <img src="/images/docs_image/2-1.png" alt="drawing"/> | <img src="/images/docs_image/2-2.png" alt="drawing"/> |
-
+Here is a brief introduction. For details, please click <a href="https://github.com/ThomasVon2021/pikvm-CM4-Board/wiki#features" target="_blank">WiKi</a>
 1. **HDMI IN** port with I2S
 2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
 3. **USB3.0 port**  x 2
@@ -38,42 +39,19 @@ BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product
 14. **CSI-2 date lanes switch**
 15. CM4 Module Connectors
 
-## 3.Mechanical Diagram
-
-![image-20211212010344693](/images/docs_image/2-8.png)
-
-## 4.Metal Shell
-
-<img src="/images/docs_image/2-9.png" alt="2-9.png" style="zoom:80%;" />
-
-The metal shell provides protection for the circuit board, and the equipped 5V DC brushless fan can enhance heat dissipation. SMA antenna hole is reserved on the shell, CM4 can use an external antenna.
-
-<img src="/images/docs_image/2-10.png" alt="2-9.png" style="zoom:80%;" />
-
-## 5.3D MODLE
-
-![](/images/3D_img/kvm2_img01.jpg)
-![](/images/3D_img/kvm2_img02.jpg)
-![](/images/3D_img/Translucent_img01.jpg)
-![](/images/3D_img/Translucent_img02.jpg)
-![](/images/pcb_img/kvm-1.jpg)
-![](/images/pcb_img/kvm-2.jpg)
-
-In this path: **video/**, there are some 3D models of videos.  
-
-## 6.Contact
+## 3.Contact
 If you are interested in this hardware, please email me anytime.
 
 email address:linshuzi123@gmail.com
 
 <a href="https://discord.gg/9Y374gUF6C" target="_blank">Discord Community Chat</a> 
 
-## 7.Test video
+## 4.Test video
 https://www.youtube.com/watch?v=aehOawHklGE
 https://www.youtube.com/watch?v=d7I9l5yG5M8
 
 ![](/images/test_img/figure1.png)
 
 
-## 8.More link
+## 5.More link
 Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
