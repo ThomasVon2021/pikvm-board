@@ -22,21 +22,21 @@ BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product
 | --------------------------------------------- | ------------------------------------------ |
 | <img src="/images/docs_image/2-1.png" alt="drawing"/> | <img src="/images/docs_image/2-2.png" alt="drawing"/> |
 
-### 2.1. **HDMI IN** port with I2S
-### 2.2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
-### 2.3. **USB3.0 port**  x 2
-### 2.4. **USB-C OTG**
-### 2.5.**Real Time Clock (RTC)**
-### 2.6.**Gigabit Ethernet**
-### 2.7.**Activity** LED 
-### 2.8.**Micro SD Card** socket
-### 2.9.**Power** LED
-### 2.10. **I2C** display connector
-### 2.11. **nRPI_BOOT** Jumper
-### 2.12.**USB-C power input** 
-### 2.13. **FAN** connector 5V
-### 2.14. **CSI-2 date lanes switch**
-### 2.15. CM4 Module Connectors
+1. **HDMI IN** port with I2S
+2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
+3. **USB3.0 port**  x 2
+4. **USB-C OTG**
+5.**Real Time Clock (RTC)**
+6.**Gigabit Ethernet**
+7.**Activity** LED 
+8.**Micro SD Card** socket
+9.**Power** LED
+10. **I2C** display connector
+11. **nRPI_BOOT** Jumper
+12.**USB-C power input** 
+13. **FAN** connector 5V
+14. **CSI-2 date lanes switch**
+15. CM4 Module Connectors
 
 ## 3.Mechanical Diagram
 
