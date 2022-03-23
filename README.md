@@ -22,6 +22,7 @@ BLIKVM is a CM4 application board for [PiKVM](https://pikvm.org/).  This product
 | **[>>> PCB front <<<](#diy-getting-started)** | **[>>> PCB front <<<](#pikvm-v3-hat)** |
 | --------------------------------------------- | ------------------------------------------ |
 | <img src="/images/docs_image/2-1.png" alt="drawing"/> | <img src="/images/docs_image/2-2.png" alt="drawing"/> |
+
 Here is a brief introduction. For details, please click <a href="https://github.com/ThomasVon2021/pikvm-CM4-Board/wiki#features" target="_blank">WiKi</a>
 1. **HDMI IN** port with I2S
 2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
