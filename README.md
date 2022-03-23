@@ -61,5 +61,5 @@ Purchase：<a href="https://www.aliexpress.com/item/1005003793429781.html?spm=a2
 Purchase：<a href="https://www.aliexpress.com/item/1005002861310912.html?spm=5261.ProductManageOnline.0.0.419d4edf1s8xR0" target="_blank">HMDI to CSI board</a>
 
 ## 6.Acknowledgments
-BLIKVM would not be possible without the excellent and generous work from many open source projects, the most notable of which are listed below:
+BLIKVM would not be possible without the excellent and generous work from many open source projects, the most notable of which are listed below:  
 <a href="https://github.com/pikvm/pikvm" target="_blank">pikvm</a>
