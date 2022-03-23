@@ -6,6 +6,7 @@
 
 Design hardware based on CM4 for pikvm:https://github.com/pikvm/pikvm.
 This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed. Join our <a href="https://discord.gg/9Y374gUF6C" target="_blank">BLIKVM Discord Community</a> for Support, FAQ & News!
+Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
 ![](/images/physical_img/blikvm8.jpg)
 
 ## 1.Introduction
