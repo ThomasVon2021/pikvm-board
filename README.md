@@ -59,3 +59,7 @@ Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2
 Purchase：<a href="https://www.aliexpress.com/item/1005003761450893.html?spm=a2g0o.productlist.0.0.32da2b63A98QAp&algo_pvid=17cd48f6-7616-4128-9bb4-9246eb25bf1f&algo_exp_id=17cd48f6-7616-4128-9bb4-9246eb25bf1f-3&pdp_ext_f=%7B%22sku_id%22%3A%2212000027078368713%22%7D&pdp_pi=-1%3B29.03%3B-1%3B3.82%40salePrice%3BUSD%3Bsearch-mainSearch" target="_blank">ATX</a>  
 Purchase：<a href="https://www.aliexpress.com/item/1005003793429781.html?spm=a2g0o.productlist.0.0.32da2b63A98QAp&algo_pvid=17cd48f6-7616-4128-9bb4-9246eb25bf1f&algo_exp_id=17cd48f6-7616-4128-9bb4-9246eb25bf1f-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000027184842775%22%7D&pdp_pi=-1%3B5.01%3B-1%3B3.82%40salePrice%3BUSD%3Bsearch-mainSearch" target="_blank">USB splitter</a>  
 Purchase：<a href="https://www.aliexpress.com/item/1005002861310912.html?spm=5261.ProductManageOnline.0.0.419d4edf1s8xR0" target="_blank">HMDI to CSI board</a>
+
+## 6.Acknowledgments
+BLIKVM would not be possible without the excellent and generous work from many open source projects, the most notable of which are listed below:
+<a href="https://github.com/pikvm/pikvm" target="_blank">pikvm</a>
