@@ -12,3 +12,4 @@
 * Mass Storage Drive (emulate a CD-ROM or Flash Drive)
 * Multiport KVM over IP
 * OLED to display system info, like temp, uptime, IP
+* Password authentication
