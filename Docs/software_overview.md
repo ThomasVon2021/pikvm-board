@@ -13,3 +13,4 @@
 * Multiport KVM over IP
 * OLED to display system info, like temp, uptime, IP
 * Password authentication
+* Support multiple languages.
