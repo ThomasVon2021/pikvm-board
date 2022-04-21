@@ -14,3 +14,5 @@
 * OLED to display system info, like temp, uptime, IP
 * Password authentication
 * Support multiple languages.
+* Wake-on-LAN
+* Support usb camera
