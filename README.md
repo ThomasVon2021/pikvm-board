@@ -28,14 +28,14 @@ Here is a brief introduction. For details, please click <a href="https://github.
 2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
 3. **USB3.0 port**  x 2
 4. **USB-C OTG** 
-5.**Real Time Clock (RTC)**  
-6.**Gigabit Ethernet**  
-7.**Activity** LED  
-8.**Micro SD Card** socket
-9.**Power** LED
+5. **Real Time Clock (RTC)**  
+6. **Gigabit Ethernet**  
+7. **Activity** LED  
+8. **Micro SD Card** socket
+9. **Power** LED
 10. **I2C** display connector
 11. **nRPI_BOOT** Jumper
-12.**USB-C power input** 
+12. **USB-C power input** 
 13. **FAN** connector 5V
 14. **CSI-2 date lanes switch**
 15. CM4 Module Connectors
