@@ -27,7 +27,7 @@ Here is a brief introduction. For details, please click <a href="https://github.
 1. **HDMI IN** port with I2S
 2. **ATX** controller interface (power on/off, reboot control, PWR and HDD ACT LEDs)
 3. **USB3.0 port**  x 2
-4. **USB-C OTG**  
+4. **USB-C OTG**
 5.**Real Time Clock (RTC)**  
 6.**Gigabit Ethernet**  
 7.**Activity** LED  
