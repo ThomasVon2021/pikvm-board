@@ -1,14 +1,14 @@
 # BLIKVM
 
-# Compute Module 4 IO Board
-
 # An application board for PiKVM
-
-Design hardware based on CM4 for pikvm:https://github.com/pikvm/pikvm.
-This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed. Join our <a href="https://discord.gg/9Y374gUF6C" target="_blank">BLIKVM Discord Community</a> for Support, FAQ & News!
+BLIKVM is a Open KVM, it has three versions: CM4 Board, Raspberry HAT, PCIE Board. The software use <a href="https://github.com/pikvm/pikvm" target="_blank">pikvm.</a>
+This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed.  
+Join our <a href="https://discord.gg/9Y374gUF6C" target="_blank">BLIKVM Discord Community</a> for Support, FAQ & News!  
+<a href="https://thomasvon2021.github.io/pikvm-board" target="_blank">BLIKVM detailed document links.</a>  
 Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
 
-![](/images/physical_img/blikvm8.jpg)
+![Image title](/docs/image/version_all.png)
+
 
 ## 1.Introduction
 
