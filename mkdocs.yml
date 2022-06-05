@@ -21,7 +21,7 @@ theme:
 extra:
   homepage: https://www.blicube.com
 repo_name: BLIKVM
-repo_url: https://github.com/ThomasVon2021/pikvm-CM4-Board
+repo_url: https://github.com/ThomasVon2021/pikvm-board
 markdown_extensions:
   - attr_list
   - md_in_html
