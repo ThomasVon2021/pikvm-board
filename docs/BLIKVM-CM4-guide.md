@@ -1,4 +1,4 @@
-# BLIKVM-CM4 GUIDE 
+# BLIKVM CM4 version guide 
 
 ![Image title](blikvm-cm4.png)
 

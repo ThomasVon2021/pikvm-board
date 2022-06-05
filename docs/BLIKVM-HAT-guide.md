@@ -1,4 +1,4 @@
-# BLIKVM-HAT GUIDE 
+# BLIKVM HAT version guide
 ## **Introduction**
 
 |                    PCB                     |                    Case                     |
