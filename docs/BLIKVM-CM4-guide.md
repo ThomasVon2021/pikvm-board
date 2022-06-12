@@ -2,7 +2,7 @@
 
 ![Image title](blikvm-cm4.png)
 
-## Installation requirements
+## **Installation requirements**
 !!! note "If you have an assembly kit, you will need the following things"
     * Raspberry CM4 with 1Gb RAM or more.
     * MicroSD card (at least 16Gb, class 10 recommended).
@@ -11,7 +11,11 @@
     * Straight Ethernet cable (for the ATX board connection).
     * Power supply unit (5.1V 3A USB-C, recommended by the Raspberry Pi).
 
-## Basic setup
+!!! warn "Power supply"
+    You must use USB-C to USB-A cable. Use USB-C to USB-C cable can't work, This is an incompatibility in the hardware design and will be 
+    fixed in a later version.
+
+## **Basic setup**
 **1.** [Flash the memory card or eMMC ](./flashing_os.md) 
 
 **2.Build BLIKVM** according to the video instruction or review the instructions:
@@ -29,7 +33,7 @@ There should be no USB hub between BLIKVM and the computer, as some UEFI/BIOS ca
 BLIKVM supports 1080p60Hz or lower about HDMI source.
 * Connect Ethernet to the network and PWR IN to the BLIKVM power supply.
 
-## ATX connection
+## **ATX connection**
 ![Image title](image/BLKVM-CM4/ATX-interface.png){width="400"}
 
 To manage the power of your computer, you will connect CN-ATX port to the computer.The user can use the ATX cable 
@@ -38,7 +42,7 @@ The length of the ATX cable is 60CM, you can also use the double female Dupont c
 
 ![Image title](image/BLKVM-CM4/atx-cable-computer.png){width="400"}
 
-## Hardware Features
+## **Hardware Features**
 ![Image title](image/BLKVM-CM4/blikvm-cm4-hardware-features.png)
 
 * 1、HDMI IN port with I2S
