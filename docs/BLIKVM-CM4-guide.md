@@ -11,7 +11,7 @@
     * Straight Ethernet cable (for the ATX board connection).
     * Power supply unit (5.1V 3A USB-C, recommended by the Raspberry Pi).
 
-!!! warn "Power supply"
+!!! warning "Power supply"
     You must use USB-C to USB-A cable. Use USB-C to USB-C cable can't work, This is an incompatibility in the hardware design and will be 
     fixed in a later version.
 
