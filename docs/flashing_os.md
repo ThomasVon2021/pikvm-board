@@ -6,12 +6,13 @@
 
 ## Download the image
 
-* **[PiKVM image (BLIKVM-CM4)](https://www.youtube.com/watch?v=jp_mF1RknU4)**
+* **[PiKVM image (BLIKVM-CM4)](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz)**
 
 ## Flash the image
 
 !!! tip
-    Ignore request to format your sd card, this step is not nessessary. Choose the most suitable method for you
+    Ignore request to format your sd card, this step is not nessessary. Choose the most suitable method for you.
+    [How to flash the eMMC on a Raspberry Pi Compute Module 4](https://www.youtube.com/watch?v=jp_mF1RknU4)
 
 ### Board Link
 First, use the jumper cap to short the boot pin.Then connect the data cable to the USB OTG interface.
