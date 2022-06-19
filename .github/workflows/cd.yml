@@ -19,5 +19,5 @@ jobs:
           username: 'root'   #ssh user name
           server: '${{ secrets.SERVER_IP }}' 
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-          local_path: './site/*' 
+          local_path: '.*' 
           remote_path: '/www/wwwroot/www.blicube.com/BLIKVM'
