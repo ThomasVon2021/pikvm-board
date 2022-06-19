@@ -8,14 +8,14 @@ jobs:
     steps:
       # check out the repository
       - name: Checkout    
-        uses: actions/checkout@v2    #这里使用了github官方提供的action,checkout项目到虚拟机上
+        uses: actions/checkout@v2    
 
-      # 利用action把build好的文件上传到服务器/var/www/react-app路径下,需要确认此目录已在服务端创建
+
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:  
           username: 'root'   #ssh user name
-          server: '${{ secrets.SERVER_IP }}' #引用之前创建好的secret
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的secret
-          local_path: './web/site/*'  # 对应我们项目build的文件夹路径
+          server: '${{ secrets.SERVER_IP }}' 
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+          local_path: './site/*' 
           remote_path: '/www/wwwroot/www.blicube.com/BLIKVM'
