@@ -65,8 +65,8 @@ The length of the ATX cable is 60CM, you can also use the double female Dupont c
 First in V2.2 version, there is CSI channel switch. This switch is switch 2 csi channels or 4 csi channels. 
 In other versions, the switch is cancelled. Newer keeps the factory state, ignore this switch. Only flip the switch 
 when the device is powered off, otherwise it may cause permanent damage! The four small switches should be up or 
-down at the same time.
-![Image title](image/BLKVM-CM4/kvm-cm4-switch.png){width="400"}
+down at the same time.  
+![Image title](image/BLKVM-CM4/kvm-cm4-switch.png){width="400"}  
 The video encoding function of the Raspberry Pi is implemented by the HDMI-to-CSI bridge chip Toshiba TC358743, 
 which supports up to 4 CSI-2 date lanes. The camera interface of Raspberry Pi 4B only supports 2 CSI-2 date 
 lanes(up to 1080p50fps), Raspberry Pi CM4 can support 4 CSI-2 date lanes(up to 1080p60fps). Currently, PiKVM 
