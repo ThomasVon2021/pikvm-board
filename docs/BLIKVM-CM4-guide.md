@@ -60,3 +60,33 @@ The length of the ATX cable is 60CM, you can also use the double female Dupont c
 * 13、FAN connector 5V
 * 14、CSI-2 date lanes switch
 * 15、CM4 Module Connectors
+
+## ** Support 1080p60hz HDMI input **
+First in V2.2 version, there is CSI channel switch. This switch is switch 2 csi channels or 4 csi channels. 
+In other versions, the switch is cancelled. Newer keeps the factory state, ignore this switch. Only flip the switch 
+when the device is powered off, otherwise it may cause permanent damage! The four small switches should be up or 
+down at the same time.
+![Image title](image/BLKVM-CM4/kvm-cm4-switch.png){width="400"}
+The video encoding function of the Raspberry Pi is implemented by the HDMI-to-CSI bridge chip Toshiba TC358743, 
+which supports up to 4 CSI-2 date lanes. The camera interface of Raspberry Pi 4B only supports 2 CSI-2 date 
+lanes(up to 1080p50fps), Raspberry Pi CM4 can support 4 CSI-2 date lanes(up to 1080p60fps). Currently, PiKVM 
+only uses two CSI-2 channels.
+
+1、 find edid file:
+```
+rw
+vim /etc/kvmd/tc358743-edid.hex
+```
+write the following 1080p 60Hz EDID into the file tc358743-edid.hex.
+```
+00FFFFFFFFFFFF0052628888008888881C150103800000780AEE91A3544C99260F505400000001010101010101010101010101010101011D007251D01E206E285500C48E2100001E8C0AD08A20E02D10103E9600138E2100001E000000FC00546F73686962612D4832430A20000000FD003B3D0F2E0F1E0A202020202020014F020323454F041303021211012021A23C3D3E1F102309070766030C00300080E3007F8C8C0AD08A20E02D10103E9600C48E210000188C0AD08A20E02D10103E9600138E210000188C0AA01451F01600267C4300138E21000098000000000000000000000000000000000000000000000000000000000000000000000000000087
+```
+2、add csi 4 lanes
+Edit /boot/config.txt, modify "dtoverlay=tc358743" to "dtoverlay=tc358743,4lane=1"
+```
+vim /boot.config.txt
+ro
+```
+Now, reboot blikvm, and you can test 1080p 60hz input.
+
+![](https://github.com/ThomasVon2021/pikvm-CM4-Board/blob/main/images/wiki/60hz.jpg)  
