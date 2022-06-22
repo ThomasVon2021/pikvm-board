@@ -48,7 +48,8 @@ If the content shown in the figure below appears, it indicates that EMMC initial
 4. After clicking on this item, select the image file (`.img.xz`), then click **CHOOSE STORAGE**:  
 ![Image title](image/flash_os/flash_img.png){width="300"}
 
-5. Insert the memory card into the card reader. Choose the card reader from this list. **Be careful** and choose the right device:   
+5. Insert the memory card into the card reader. Choose the card reader from this list. **Be careful** 
+and choose the right device:   
 
     ![Image title](image/flash_os/flash_storage.png){width="300"}
 
