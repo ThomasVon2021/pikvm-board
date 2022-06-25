@@ -48,7 +48,8 @@ The clock chip is PCF8563 that is controlled by your Raspberry Pi via I2C. The c
 
 ![Image title](image/BLIKVM-HAT/ATX-A-B.png){width="300"}
 
-This board is connected to the switch port on the motherboard of the controlled computer with DuPont cables. The board has a standard PCIe I/O bracket and a low profile PCIe  I/O bracket.
+This board is connected to the switch port on the motherboard of the controlled computer with DuPont cables. 
+The board has a standard PCIe I/O bracket and a low profile PCIe  I/O bracket.
 
 ### **USB/PWR splitter**
 ![Image title](image/BLIKVM-HAT/usb-spiltter.png){width="300"}

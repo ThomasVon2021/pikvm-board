@@ -21,10 +21,9 @@
 **2.Build BLIKVM** according to the video instruction or review the instructions:
 
 ??? info "Video Guide: Metal case step by step"
-    [PIKVM CM4 (A RPI Compute Module 4 IO Board for PiKVM) BLIKVM Unboxing](https://www.youtube.com/watch?v=aehOawHklGE)
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aehOawHklGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ??? info "Geerling Engineering Test video"
-    [This Raspberry Pi controls ANY PC (BliKVM)](https://www.youtube.com/watch?v=3OPd7svT3bE)
-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3OPd7svT3bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **3.** Connect BLIKVM to the computer according to the diagram below:
 ![Image title](image/blikcm-cm4-interface.png){width="400"}
 
