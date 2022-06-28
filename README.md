@@ -5,7 +5,8 @@ BLIKVM is a Open KVM, it has three versions: CM4 Board, Raspberry HAT, PCIE Boar
 This device helps to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed.  
 Join our <a href="https://discord.gg/9Y374gUF6C" target="_blank">BLIKVM Discord Community</a> for Support, FAQ & News!  
 <a href="https://thomasvon2021.github.io/pikvm-board" target="_blank">BLIKVM detailed document links.</a>  
-Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>
+Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM CM4 version</a>  
+Purchase：<a href="https://www.aliexpress.com/item/3256804191615648.html?spm=a2g0o.productlist.0.0.42682b63qHmo0g&algo_pvid=eaa3e7fc-42f3-44f0-8c22-84e0e647767d&algo_exp_id=eaa3e7fc-42f3-44f0-8c22-84e0e647767d-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000028971386127%22%7D&pdp_npi=2%40dis%21USD%21%2198.9%21%21%21%21%21%400b0a119a16564597101234153ecbb8%2112000028971386127%21sea" target="_blank">BLIKVM hat version</a> 
 
 ![Image title](/docs/image/version_all.png)
 
@@ -55,7 +56,8 @@ https://www.youtube.com/watch?v=d7I9l5yG5M8
 
 
 ## 5.More link
-Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM</a>  
+Purchase：<a href="https://www.aliexpress.com/item/1005003262886521.html?spm=a2g0o.store_pc_allProduct.8148356.5.39cd62bejpZaWF" target="_blank">BLIKVM CM4 version</a>  
+Purchase：<a href="https://www.aliexpress.com/item/3256804191615648.html?spm=a2g0o.productlist.0.0.42682b63qHmo0g&algo_pvid=eaa3e7fc-42f3-44f0-8c22-84e0e647767d&algo_exp_id=eaa3e7fc-42f3-44f0-8c22-84e0e647767d-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000028971386127%22%7D&pdp_npi=2%40dis%21USD%21%2198.9%21%21%21%21%21%400b0a119a16564597101234153ecbb8%2112000028971386127%21sea" target="_blank">BLIKVM hat version</a> 
 Purchase：<a href="https://www.aliexpress.com/item/1005003761450893.html?spm=a2g0o.productlist.0.0.32da2b63A98QAp&algo_pvid=17cd48f6-7616-4128-9bb4-9246eb25bf1f&algo_exp_id=17cd48f6-7616-4128-9bb4-9246eb25bf1f-3&pdp_ext_f=%7B%22sku_id%22%3A%2212000027078368713%22%7D&pdp_pi=-1%3B29.03%3B-1%3B3.82%40salePrice%3BUSD%3Bsearch-mainSearch" target="_blank">ATX</a>  
 Purchase：<a href="https://www.aliexpress.com/item/1005003793429781.html?spm=a2g0o.productlist.0.0.32da2b63A98QAp&algo_pvid=17cd48f6-7616-4128-9bb4-9246eb25bf1f&algo_exp_id=17cd48f6-7616-4128-9bb4-9246eb25bf1f-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000027184842775%22%7D&pdp_pi=-1%3B5.01%3B-1%3B3.82%40salePrice%3BUSD%3Bsearch-mainSearch" target="_blank">USB splitter</a>  
 Purchase：<a href="https://www.aliexpress.com/item/1005002861310912.html?spm=5261.ProductManageOnline.0.0.419d4edf1s8xR0" target="_blank">HMDI to CSI board</a>
