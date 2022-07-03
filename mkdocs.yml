@@ -1,7 +1,9 @@
 site_name: BLIKVM Handbook
+site_description: Open and cheap DIY IP-KVM on Raspberry Pi
+site_author: Thomas Von
 theme:
   name: material
-  logo: logo.png
+  logo: image/logo.png
   icon:
     admonition:
       note: octicons/tag-16
@@ -18,6 +20,15 @@ theme:
       quote: octicons/quote-16
   features:
     - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - search.suggest
+
 extra:
   homepage: https://www.blicube.com
 repo_name: BLIKVM
@@ -33,4 +44,19 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+nav:
+    - "Getting started":
+        - "BLIKVM Overview": index.md
+        - "BLIKVM HAT version guide": BLIKVM-HAT-guide.md
+        - "BLIKVM CM4 version guide": BLIKVM-CM4-guide.md
+        - "BLIKVM PCIe version guide": BLIKVM-PCIE-guide.md
+    - "Configure":
+        - "flashing os": flashing_os.md
+        - "OLED display": OLED-display.md
+    - "Accessories":
+        - "ATX guide": atx-guide.md
+        - "HDMI to CSI&Audio": hdmi-csi-i2s.md
+        - "USB splitter": usb-splitter-guide.md
+
 
