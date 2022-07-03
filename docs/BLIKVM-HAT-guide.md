@@ -8,39 +8,47 @@
 The Raspberry Pi IPKVM HAT is an add-on board for Raspberry Pi 4, made especially for KVM Over IP.  
 BLIKVM-RPI4 is a Raspberry Pi 4 PoE KVM HAT.  This product’s key features include video capture, ATX adapter,PoE, OLED and RTC. The product has a customized metal case to dissipate heat and provide protection for the HAT. The product can be easily installed on a standard 1U rack. The product is currently perfectly compatible with blikvm image and pikvm image.
 
+## **Installation requirements**
+!!! note "If you have an assembly kit, you will need the following things"
+    * Raspberry Pi 4B with 1Gb RAM or more.
+    * HDMI cable.
+    * Straight Ethernet cable (for the ATX board connection).
+    * Power supply unit & cable(5.1V 3A USB-C, recommended by the Raspberry Pi).
+
+## **Basic setup**
+**1.** [Flash the memory card or eMMC ](./flashing_os.md) 
+
+**2.Build BLIKVM** according to the video instruction or review the instructions:
+
+??? info "Video Guide: Metal case step by step"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FaZBQUA7rAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## **Specification**
 ![Image title](image/BLIKVM-HAT/specification.png){width="600"}
 
-### **HDMI IN**
+??? note "**HDMI IN**"
+    The bridge chip is Toshiba TC358743, which supports both video and audio(I2S), and the highest input resolution is 1080p@50fps.
+    Fixed HDMI back power issue.
 
-The bridge chip is Toshiba TC358743, which supports both video and audio(I2S), and the highest input resolution is 1080p@50fps.
+??? note "**CN-ATX**"
+    The CN-ATX interface is connected to the ATX adapter board (an accessory for the HAT)through a network cable, which can turn on, 
+    off, and restart the controlled computer.
 
-Fixed HDMI back power issue.
+??? note "**Display**"
+    A white OLED display with a resolution of 128x32, and the chip is SSD1306. 
+    This display can show the temperature, IP address and other information of the Raspberry Pi.
 
-### **CN-ATX**
+??? note "**PoE**"
+    - **Standard:** IEEE 802.3af PoE
+    - **Input voltage:** 37-57 V DC
+    - **Output power:** 5 V DC/2.4 A
+    - Plug in the PoE jumper cap to enable PoE power supply
 
-The CN-ATX interface is connected to the ATX adapter board (an accessory for the HAT)through a network cable, which can turn on, off, and restart the controlled computer.
+??? note "**FAN**"
+    The IPKVM HAT is fitted with a small fan that is controlled by your Raspberry Pi via GPIO12. 
 
-### **Display**
-
-A white OLED display with a resolution of 128x32, and the chip is SSD1306. 
-
-This display can show the temperature, IP address and other information of the Raspberry Pi.
-
-### **PoE**
-
-- **Standard:** IEEE 802.3af PoE
-- **Input voltage:** 37-57 V DC
-- **Output power:** 5 V DC/2.4 A
-- Plug in the PoE jumper cap to enable PoE power supply
-
-### **FAN**
-
-The IPKVM HAT is fitted with a small fan that is controlled by your Raspberry Pi via GPIO12. 
-
-### **Real Time Clock (RTC)**
-
-The clock chip is PCF8563 that is controlled by your Raspberry Pi via I2C. The coin cell battery is installed under the HDMI IN module.
+??? note "**Real Time Clock (RTC)**"
+    The clock chip is PCF8563 that is controlled by your Raspberry Pi via I2C. The coin cell battery is installed under the HDMI IN module.
 
 ## **Accessories**
 

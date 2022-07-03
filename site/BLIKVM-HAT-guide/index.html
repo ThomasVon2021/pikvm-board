@@ -271,57 +271,23 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#installation-requirements" class="md-nav__link">
+    Installation requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-setup" class="md-nav__link">
+    Basic setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#specification" class="md-nav__link">
     Specification
   </a>
-  
-    <nav class="md-nav" aria-label="Specification">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hdmi-in" class="md-nav__link">
-    HDMI IN
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cn-atx" class="md-nav__link">
-    CN-ATX
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#display" class="md-nav__link">
-    Display
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#poe" class="md-nav__link">
-    PoE
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fan" class="md-nav__link">
-    FAN
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#real-time-clock-rtc" class="md-nav__link">
-    Real Time Clock (RTC)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -525,57 +491,23 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#installation-requirements" class="md-nav__link">
+    Installation requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-setup" class="md-nav__link">
+    Basic setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#specification" class="md-nav__link">
     Specification
   </a>
-  
-    <nav class="md-nav" aria-label="Specification">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hdmi-in" class="md-nav__link">
-    HDMI IN
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cn-atx" class="md-nav__link">
-    CN-ATX
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#display" class="md-nav__link">
-    Display
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#poe" class="md-nav__link">
-    PoE
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fan" class="md-nav__link">
-    FAN
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#real-time-clock-rtc" class="md-nav__link">
-    Real Time Clock (RTC)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -683,27 +615,57 @@
 </table>
 <p>The Raspberry Pi IPKVM HAT is an add-on board for Raspberry Pi 4, made especially for KVM Over IP.<br />
 BLIKVM-RPI4 is a Raspberry Pi 4 PoE KVM HAT.  This product’s key features include video capture, ATX adapter,PoE, OLED and RTC. The product has a customized metal case to dissipate heat and provide protection for the HAT. The product can be easily installed on a standard 1U rack. The product is currently perfectly compatible with blikvm image and pikvm image.</p>
+<h2 id="installation-requirements"><strong>Installation requirements</strong></h2>
+<div class="admonition note">
+<p class="admonition-title">If you have an assembly kit, you will need the following things</p>
+<ul>
+<li>Raspberry Pi 4B with 1Gb RAM or more.</li>
+<li>HDMI cable.</li>
+<li>Straight Ethernet cable (for the ATX board connection).</li>
+<li>Power supply unit &amp; cable(5.1V 3A USB-C, recommended by the Raspberry Pi).</li>
+</ul>
+</div>
+<h2 id="basic-setup"><strong>Basic setup</strong></h2>
+<p><strong>1.</strong> <a href="../flashing_os/">Flash the memory card or eMMC </a> </p>
+<p><strong>2.Build BLIKVM</strong> according to the video instruction or review the instructions:</p>
+<details class="info">
+<summary>Video Guide: Metal case step by step</summary>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/FaZBQUA7rAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</details>
 <h2 id="specification"><strong>Specification</strong></h2>
 <p><img alt="Image title" src="../image/BLIKVM-HAT/specification.png" width="600" /></p>
-<h3 id="hdmi-in"><strong>HDMI IN</strong></h3>
-<p>The bridge chip is Toshiba TC358743, which supports both video and audio(I2S), and the highest input resolution is 1080p@50fps.</p>
-<p>Fixed HDMI back power issue.</p>
-<h3 id="cn-atx"><strong>CN-ATX</strong></h3>
-<p>The CN-ATX interface is connected to the ATX adapter board (an accessory for the HAT)through a network cable, which can turn on, off, and restart the controlled computer.</p>
-<h3 id="display"><strong>Display</strong></h3>
-<p>A white OLED display with a resolution of 128x32, and the chip is SSD1306. </p>
-<p>This display can show the temperature, IP address and other information of the Raspberry Pi.</p>
-<h3 id="poe"><strong>PoE</strong></h3>
+<details class="note">
+<summary><strong>HDMI IN</strong></summary>
+<p>The bridge chip is Toshiba TC358743, which supports both video and audio(I2S), and the highest input resolution is 1080p@50fps.
+Fixed HDMI back power issue.</p>
+</details>
+<details class="note">
+<summary><strong>CN-ATX</strong></summary>
+<p>The CN-ATX interface is connected to the ATX adapter board (an accessory for the HAT)through a network cable, which can turn on, 
+off, and restart the controlled computer.</p>
+</details>
+<details class="note">
+<summary><strong>Display</strong></summary>
+<p>A white OLED display with a resolution of 128x32, and the chip is SSD1306. 
+This display can show the temperature, IP address and other information of the Raspberry Pi.</p>
+</details>
+<details class="note">
+<summary><strong>PoE</strong></summary>
 <ul>
 <li><strong>Standard:</strong> IEEE 802.3af PoE</li>
 <li><strong>Input voltage:</strong> 37-57 V DC</li>
 <li><strong>Output power:</strong> 5 V DC/2.4 A</li>
 <li>Plug in the PoE jumper cap to enable PoE power supply</li>
 </ul>
-<h3 id="fan"><strong>FAN</strong></h3>
+</details>
+<details class="note">
+<summary><strong>FAN</strong></summary>
 <p>The IPKVM HAT is fitted with a small fan that is controlled by your Raspberry Pi via GPIO12. </p>
-<h3 id="real-time-clock-rtc"><strong>Real Time Clock (RTC)</strong></h3>
+</details>
+<details class="note">
+<summary><strong>Real Time Clock (RTC)</strong></summary>
 <p>The clock chip is PCF8563 that is controlled by your Raspberry Pi via I2C. The coin cell battery is installed under the HDMI IN module.</p>
+</details>
 <h2 id="accessories"><strong>Accessories</strong></h2>
 <h3 id="atx-adapter-board"><strong>ATX adapter board</strong></h3>
 <p><img alt="Image title" src="../image/BLIKVM-HAT/ATX-A-B.png" width="300" /></p>

@@ -1,6 +1,7 @@
 # BLIKVM CM4 version guide 
 
-![Image title](blikvm-cm4.png)
+!!! info "BLIKVM CM4 Video"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2av-JFFkF6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## **Installation requirements**
 !!! note "If you have an assembly kit, you will need the following things"
