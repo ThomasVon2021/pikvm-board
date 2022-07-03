@@ -6,7 +6,7 @@
 
 ## Download the image
 
-* **[PiKVM image (BLIKVM-CM4)](https://files.pikvm.org/images/v3-hdmi-rpi4-latest.img.xz)**
+* **[PiKVM image (BLIKVM-CM4)](https://mgk9cjip0o.feishu.cn/file/boxcnYAhGhLxaEVOQdSrNiD1Pbg?from=from_copylink)**
 
 ## Flash the image
 
