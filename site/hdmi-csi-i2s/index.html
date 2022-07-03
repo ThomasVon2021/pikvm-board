@@ -6,6 +6,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Open and cheap DIY IP-KVM on Raspberry Pi">
+      
+      
+        <meta name="author" content="Thomas Von">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -13,7 +17,7 @@
     
     
       
-        <title>HDMI to CSI&I2S bridge guide - BLIKVM Handbook</title>
+        <title>HDMI to CSI&Audio - BLIKVM Handbook</title>
       
     
     
@@ -75,7 +79,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://www.blicube.com" title="BLIKVM Handbook" class="md-header__button md-logo" aria-label="BLIKVM Handbook" data-md-component="logo">
       
-  <img src="../logo.png" alt="logo">
+  <img src="../image/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -91,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HDMI to CSI&I2S bridge guide
+              HDMI to CSI&Audio
             
           </span>
         </div>
@@ -114,10 +118,16 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -172,7 +182,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://www.blicube.com" title="BLIKVM Handbook" class="md-nav__button md-logo" aria-label="BLIKVM Handbook" data-md-component="logo">
       
-  <img src="../logo.png" alt="logo">
+  <img src="../image/logo.png" alt="logo">
 
     </a>
     BLIKVM Handbook
@@ -199,33 +209,51 @@
   
   
   
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        BLIKVM Overview
-      </a>
-    </li>
-  
-
     
       
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../BLIKVM-CM4-guide/" class="md-nav__link">
-        BLIKVM CM4 version guide
-      </a>
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
       
       
       
-
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="..">Getting started</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
   
   
   
@@ -236,18 +264,38 @@
     </li>
   
 
-    
-      
-      
-      
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BLIKVM-CM4-guide/" class="md-nav__link">
+        BLIKVM CM4 version guide
+      </a>
+    </li>
+  
 
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
       <a href="../BLIKVM-PCIE-guide/" class="md-nav__link">
-        BLIKVM PCIE guide
+        BLIKVM PCIe version guide
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -256,6 +304,54 @@
       
       
 
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Configure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Configure" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Configure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flashing_os/" class="md-nav__link">
+        flashing os
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -266,41 +362,70 @@
     </li>
   
 
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
     
       
       
       
 
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Accessories
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Accessories" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Accessories
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
   
   
   
     <li class="md-nav__item">
       <a href="../atx-guide/" class="md-nav__link">
-        ATXA guide
+        ATX guide
       </a>
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../flashing_os/" class="md-nav__link">
-        Flashing the OS image
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
+            
+          
+            
+              
   
   
     
@@ -315,12 +440,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          HDMI to CSI&I2S bridge guide
+          HDMI to CSI&Audio
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        HDMI to CSI&I2S bridge guide
+        HDMI to CSI&Audio
       </a>
       
         
@@ -414,18 +539,24 @@
     </li>
   
 
-    
-      
-      
-      
-
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
       <a href="../usb-splitter-guide/" class="md-nav__link">
-        USB/PWR Splitter guide
+        USB splitter
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -864,6 +995,11 @@ Note: alsasrc device=hw:1 – “1” means the audio card number, You must chan
           </div>
         </div>
         
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
       </main>
       
         <footer class="md-footer">
@@ -871,7 +1007,7 @@ Note: alsasrc device=hw:1 – “1” means the audio card number, You must chan
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../flashing_os/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Flashing the OS image" rel="prev">
+        <a href="../atx-guide/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ATX guide" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -880,20 +1016,20 @@ Note: alsasrc device=hw:1 – “1” means the audio card number, You must chan
               <span class="md-footer__direction">
                 Previous
               </span>
-              Flashing the OS image
+              ATX guide
             </div>
           </div>
         </a>
       
       
         
-        <a href="../usb-splitter-guide/" class="md-footer__link md-footer__link--next" aria-label="Next: USB/PWR Splitter guide" rel="next">
+        <a href="../usb-splitter-guide/" class="md-footer__link md-footer__link--next" aria-label="Next: USB splitter" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              USB/PWR Splitter guide
+              USB splitter
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -923,7 +1059,7 @@ Note: alsasrc device=hw:1 – “1” means the audio card number, You must chan
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.top", "navigation.tracking", "navigation.expand", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.3a4b43e5.min.js"></script>
