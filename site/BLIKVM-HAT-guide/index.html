@@ -758,11 +758,62 @@ BLIKVM-RPI4 is a Raspberry Pi 4 PoE KVM HAT.  This product’s key features incl
 </div>
 <h2 id="basic-setup"><strong>Basic setup</strong></h2>
 <p><strong>1.</strong> <a href="../flashing_os/">Flash the memory card or eMMC </a> </p>
-<p><strong>2.Build BLIKVM</strong> according to the video instruction or review the instructions:</p>
+<p><strong>2.Build BLIKVM</strong> according to the video instruction or review the <a href="../BLIHAT-Installation/">illustrated instructions</a>:</p>
 <details class="info">
 <summary>Video Guide: Metal case step by step</summary>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/FaZBQUA7rAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </details>
+<p><strong>3.</strong> Install the ATX adapter board</p>
+<div class="admonition info">
+<p class="admonition-title">The board has a standard PCIe I/O bracket and a low profile PCIe  I/O bracket. Choose one as needed</p>
+<p><img alt="IMG_8366" src="../image/BLIKVM-HAT/hat-install/IMG_8366.JPG" width="300" />
+<img alt="IMG_8367" src="../image/BLIKVM-HAT/hat-install/IMG_8367.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Use Dupont cables to connect ATX adapter board to motherboard and chassis panel. There are clear pin definitions on the board for easy wiring.</p>
+<p><img alt="IMG_8368" src="../image/BLIKVM-HAT/hat-install/IMG_8368.JPG" width="300" />
+<img alt="IMG_8369" src="../image/BLIKVM-HAT/hat-install/IMG_8369.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Mount the ATX adapter board to the case shell</p>
+<p><img alt="IMG_8370" src="../image/BLIKVM-HAT/hat-install/IMG_8370.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Use a RJ45 network cable to connect the board to the CN-ATX interface of the HAT</p>
+<p><img alt="004d8da8059a57b87d2d40ce70174e7" src="../image/BLIKVM-HAT/hat-install/004d8da8059a57b87d2d40ce70174e7.png" width="300" /></p>
+</div>
+<p><strong>4.</strong> Connect the HDMI cable</p>
+<div class="admonition info">
+<p class="admonition-title">Connect the HDMI output port of the computer directly to the HDMI IN port of the HAT with an HDMI cable. The HDMI pass-through EDID emulator is not necessary! If your computer does not output the correct HDMI format, plug the HDMI pass-through EDID emulator into the HDMI output port of the computer. This allows you to configure a fixed HDMI output format on your computer.</p>
+<p><img alt="30c484ad28e149b703ccc74c09e52db" src="../image/BLIKVM-HAT/hat-install/30c484ad28e149b703ccc74c09e52db.png" width="300" />
+<img alt="IMG_8373" src="../image/BLIKVM-HAT/hat-install/IMG_8373.JPG" width="300" /></p>
+</div>
+<p><strong>5.</strong> Install the USB cable</p>
+<div class="admonition info">
+<p class="admonition-title">Connect the RPI4 port to the Raspberry Pi 4</p>
+<p><img alt="IMG_8374" src="../image/BLIKVM-HAT/hat-install/IMG_8374.JPG" width="300" />
+<img alt="IMG_8375" src="../image/BLIKVM-HAT/hat-install/IMG_8375.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Connect the USB port to the controlled computer</p>
+<p><img alt="IMG_8376" src="../image/BLIKVM-HAT/hat-install/IMG_8376.JPG" width="300" /></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">When using PoE power supply, there is no need to connect the PWR port. When not using PoE power supply, connect the PWR port to a standard 5V/3A USB power supply.</p>
+</div>
+<p><strong>6.</strong> Test</p>
+<div class="admonition info">
+<p class="admonition-title">Powered by PoE, the HAT is connected to the router via the network cable</p>
+<p><img alt="IMG_8377" src="../image/BLIKVM-HAT/hat-install/IMG_8377.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">The screen displays the current status of the device, including the machine's IP address</p>
+<p><img alt="IMG_8379" src="../image/BLIKVM-HAT/hat-install/IMG_8379.JPG" width="300" /></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Access the IP address of the HAT in the browser. Enjoy!</p>
+<p><img alt="image-20220621174207504" src="../image/BLIKVM-HAT/hat-install/image-20220621174207504.png" width="300" /></p>
+</div>
 <h2 id="specification"><strong>Specification</strong></h2>
 <p><img alt="Image title" src="../image/BLIKVM-HAT/specification.png" width="600" /></p>
 <details class="note">
@@ -813,7 +864,7 @@ The board has a standard PCIe I/O bracket and a low profile PCIe  I/O bracket.</
 <p><img alt="Image title" src="../image/BLIKVM-HAT/edid-emulator.png" width="300" /></p>
 <p>If the controlled computer does not output HDMI images correctly, please use this accessory. Connect the Source port to the controlled computer, connect the Sink port to the HAT. Then you can set the correct HDMI output on the controlled computer.</p>
 <h3 id="metal-case"><strong>Metal case</strong></h3>
-<p><img alt="Image title" src="../image/BLIKVM-HAT/metal-case.png" width="300" />
+<p><img alt="Image title" src="../image/BLIKVM-HAT/metal-case.png" width="300" /><br />
 The metal case protects the HAT and improve heat dissipation. There are clear port markings on the case.</p>
 <p>The case can be easily installed on a standard 1U rack.</p>
 <h2 id="list"><strong>List</strong></h2>
