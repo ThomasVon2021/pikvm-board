@@ -3,7 +3,7 @@
 ```
 su -
 rw
-https://github.com/ThomasVon2021/pikvm-board.git
+git clone --single-branch --branch master https://github.com/ThomasVon2021/pikvm-board.git
 cd package/kvmd-fan
 bash install.sh
 ```
@@ -20,5 +20,5 @@ systemctl enable kvmd-fan
 
 4、if you want see the fan work status
 ```
-systemctl  status
+systemctl  
 ```
