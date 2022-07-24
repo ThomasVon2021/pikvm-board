@@ -20,5 +20,5 @@ systemctl enable kvmd-fan
 
 4、if you want see the fan work status
 ```
-systemctl  
+systemctl  start kvmd-fan
 ```
