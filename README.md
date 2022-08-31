@@ -17,7 +17,10 @@
 ## Support
 
 - Check out [the documentation](https://wiki.blicube.com/blikvm/)!
+- Add the language of your country to the [documentation](https://github.com/ThomasVon2021/blikvm-site)
 - Join the [Discord Community Chat](https://discord.gg/9Y374gUF6C) for news, questions and support!
+- [BliKVM software](https://github.com/ThomasVon2021/blikvm)
+
 
 ## Purchase
 
