@@ -1,7 +1,7 @@
 <h1 align="center">BliKVM - Open hardware for PiKVM</h1>
 
 <p align="center">
-  <a href="https://www.blicube.com">BliKVM</a> is open hardware that runs <a href="https://github.com/pikvm/pikvm">PiKVM</a>,
+  <a href="https://www.blicube.com">BliKVM</a> is hardware that runs <a href="https://github.com/pikvm/pikvm">PiKVM</a>,
   helping you to manage servers or workstations remotely, regardless of the health of the operating system or whether one is installed.
 </p>
 
