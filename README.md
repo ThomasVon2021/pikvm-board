@@ -31,7 +31,8 @@
 
 ## Videos
 
-- [Watch - Review by `Geerling Engineering`](https://www.youtube.com/watch?v=3OPd7svT3bE) 
+- [Watch - CM4 version Review by `Geerling Engineering`](https://www.youtube.com/watch?v=3OPd7svT3bE) 
+- [Watch - PCIe version Review by `Geerling Engineering`](https://www.youtube.com/watch?v=cVWF3u-y-Zg) 
 - [Watch - Feature Overview for CM4 Version](https://www.youtube.com/watch?v=aehOawHklGE)
 - [Watch - Unboxing for CM4 Version](https://www.youtube.com/watch?v=d7I9l5yG5M8)
 
