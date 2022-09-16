@@ -8,6 +8,8 @@ After the products arrive, we will notify you by email, send you a coupon of USD
 
 # The PCIe version two type
 
+According to different places, there may be taxes, and the price may fluctuate. Please note that you do not need to pay the full amount at this time.
+
 Only PCIe card: 115$. 
 
 Plug-n-Play:213$. 
