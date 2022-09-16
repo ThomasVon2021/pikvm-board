@@ -27,6 +27,7 @@
 - [Purchase - BliKVM CM4 Version](https://www.aliexpress.com/item/1005003262886521.html)
 - [Purchase - BliKVM HAT Version](https://www.aliexpress.com/item/1005004377930400.html)
 - [Purchase - BliKVM PCIe version](https://www.aliexpress.com/item/1005004572837650.html)
+- [Reserve - BliKVM PCIe version](https://github.com/ThomasVon2021/pikvm-board/blob/master/Blikvm_PCIe_advanced_order.md)
 
 ## Videos
 
