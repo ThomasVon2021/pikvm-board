@@ -21,6 +21,3 @@ Plug-n-Play:213$.
 
 [Docs](https://wiki.blicube.com/blikvm/en/BLIKVM-PCIE-guide/)
 
-# Notes
-
-The deposit here is not refundable in principle, because we will arrange production after receiving the deposit.
