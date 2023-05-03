@@ -10,7 +10,7 @@
     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/ThomasVon2021/pikvm-board?color=ffcb2f&label=%E2%AD%90%20on%20GitHub">
   </a>
   <a href="https://discord.gg/9Y374gUF6C">
-    <img alt="Discord Server" src="https://img.shields.io/discord/943534043515977768?color=0&label=discord%20derver&logo=discord">
+    <img alt="Discord Server" src="https://img.shields.io/discord/943534043515977768?color=0&label=discord%20server&logo=discord">
   </a>
 </p>
 
